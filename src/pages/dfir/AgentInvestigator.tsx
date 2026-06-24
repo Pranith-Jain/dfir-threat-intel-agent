@@ -239,7 +239,7 @@ export default function AgentInvestigator(): JSX.Element {
         <p className="text-xs text-slate-500 font-mono flex items-center gap-2">
           <span>2-6 step CTI investigation</span>
           <span>·</span>
-          <span>30+ intel tools</span>
+          <span>98 intel tools</span>
           <span>·</span>
           <span>STIX 2.1 export</span>
           <span>·</span>
