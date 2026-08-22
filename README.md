@@ -8,7 +8,7 @@ Describe what to investigate in natural language — the agent autonomously:
 
 1. **Classifies** the query type (IP, domain, hash, CVE, actor, phishing, ransomware)
 2. **Plans** which intelligence tools to call using an LLM
-3. **Executes** tools in parallel (98 threat intel tools)
+3. **Executes** tools in parallel (48 threat intel tools)
 4. **Observes** results and decides what to investigate next
 5. **Repeats** for up to 8 reasoning steps
 6. **Synthesizes** a structured intelligence report with citations
@@ -43,7 +43,7 @@ User Query
 | File | Purpose |
 |------|---------|
 | `src/lib/agent/types.ts` | Core type definitions (AgentState, AgentStep, AgentTool, etc.) |
-| `src/lib/agent/tools.ts` | Tool registry — 98 threat intel tools wrapping platform API endpoints |
+| `src/lib/agent/tools.ts` | Tool registry — 48 curated threat intel tools wrapping platform API endpoints |
 | `src/lib/agent/prompts.ts` | LLM system prompts for planner, observer, and synthesizer roles |
 | `src/lib/agent/planner.ts` | LLM-powered planning: decides which tools to call next |
 | `src/lib/agent/observer.ts` | Summarizes tool results after each step |
@@ -152,4 +152,4 @@ MIT License — see [LICENSE](./LICENSE).
 
 ## Part of
 
-This agent is part of the [DFIR & ThreatIntel Portfolio Platform](https://pranithjain.qzz.io) — a comprehensive cybersecurity analysis platform with 98+ MCP tools and 230+ total tools across DFIR and Threat Intelligence domains.
+This agent is part of the [DFIR & ThreatIntel Portfolio Platform](https://pranithjain.qzz.io) — a comprehensive cybersecurity analysis platform with a 328-tool MCP server spanning DFIR, threat-intel, SI, and workspace domains.

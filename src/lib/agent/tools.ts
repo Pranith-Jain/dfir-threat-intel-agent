@@ -1,6 +1,6 @@
 /**
  * CTI Analyst Agent — Full tool registry.
- * 98 tools across all CTI domains: IOC enrichment, vulnerability intel,
+ * 48 tools across all CTI domains: IOC enrichment, vulnerability intel,
  * actor profiling, malware analysis, domain/host intel, detection rules,
  * relationship graphs, campaign tracking, STIX/TAXII, dark web, phishing,
  * breach monitoring, investigation notebooks, workspaces, and more.
